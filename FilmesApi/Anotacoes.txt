@@ -1,0 +1,19 @@
+﻿__________Namespace com escopo de arquivo
+No arquivo WeatherForecastController.cs, note que todo o código está indentado para que a classe e as anotações fiquem dentro de um namespace, em um bloco de chaves. 
+O .NET 6 oferece um recurso para aprimorar essa estrutura. Posicionando o cursor sobre o nome do namespace (linha 3), pressionaremos "Alt + Enter" e selecionaremos 
+"Converter em namespace com escopo de arquivo". Assim, o código ficará indentado mais à esquerda e o bloco de chaves do namespace é removido. O projeto torna-se mais 
+centralizado e legível dessa forma.
+
+
+__________Criando um projeto com Visual Studio Code
+$ dotnet new webapi --name FilmesApi
+$ dotnet run --project FilmesApi/FilmesApi.csproj
+
+Inicialmente, teremos um erro, pois é preciso acessar o endereço com /swagger ao final. Portanto, usaremos o seguinte endereço:
+
+https://localhost:7174/swagger/index.html
+
+
+__________Para não executar o SWAGGER
+Como usamos a configuração 'launchBrowser: true' no arquivo launchSettings.json, a aplicação será executada no navegador, novamente com o Swagger.
+Por enquanto, não nos interessa abrir o browser, então vamos alterar essa configuração e alterar seu valor para false: '"launchBrowser": false,'

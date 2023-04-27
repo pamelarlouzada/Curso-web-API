@@ -1,0 +1,30 @@
+# Arquivos gerados automaticamente
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Arquivos de configuração do Visual Studio
+.vs/
+*.suo
+*.user
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração sensíveis
+appsettings.json
+
+# Arquivos de certificado
+*.pfx
+
+# Pacotes NuGet baixados
+/packages/
+
+# Cache e arquivos de preferência de usuário
+*.cache
+*.userprefs
+
+# Arquivos do sistema operacional macOS
+.DS_Store
